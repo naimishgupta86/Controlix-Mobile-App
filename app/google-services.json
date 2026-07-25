@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "268754741845",
+    "project_id": "controlix-8c198",
+    "storage_bucket": "controlix-8c198.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268754741845:android:486720eb6d4995e4e282dc",
+        "android_client_info": {
+          "package_name": "com.example.controlix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPeTeLKOLyIiUNSwtObShHWOg3-7PttRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

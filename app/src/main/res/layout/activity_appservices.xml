@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Appservices"
+    android:background="@drawable/theme4">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="240dp"
+        android:text="APPLICATION SERVICES"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button49"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="378dp"
+        android:background="#00BCD4"
+        android:text="PLAY QUIZ" />
+
+    <Button
+        android:id="@+id/button51"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="304dp"
+        android:background="#F44336"
+        android:text="Tic Tac Toe" />
+
+    <Button
+        android:id="@+id/button50"
+        android:layout_width="79dp"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="110dp"
+        android:background="#673AB7"
+        android:text="BACK" />
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ninth"
+    android:background="@drawable/theme4">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="119dp"
+        android:text="SYSTEM SERVICES"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="176dp"
+        android:background="#00BCD4"
+        android:text="WIFI"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="256dp"
+        android:background="#3F51B5"
+        android:text="MUSIC"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="419dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-8dp"
+        android:layout_marginBottom="425dp"
+        android:background="#4CAF50"
+        android:text="TEXT TO SPEECH"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="407dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="346dp"
+        android:background="#9C27B0"
+        android:text="TORCH"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="273dp"
+        android:background="#FF9800"
+        android:text="VIBRATOR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteY="552dp" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="203dp"
+        android:background="#F44336"
+        android:text="Bluetooth" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="130dp"
+        android:background="#FFEB3B"
+        android:text="Browser" />
+
+    <Button
+        android:id="@+id/button48"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="154dp"
+        android:layout_marginBottom="40dp"
+        android:background="#E91E63"
+        android:text="BACK" />
+
+</RelativeLayout>

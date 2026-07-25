@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fourth"
+    android:background="@drawable/theme4">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="132dp"
+        android:text="OFFLINE REGISTER"
+        android:textColor="#E0FFFFFF"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="410dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="235dp"
+        android:ems="10"
+        android:hint="EMAIL"
+        android:inputType="text"
+        android:textColor="#F1FFFFFF"
+        android:textColorHint="#FCFFFFFF" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="407dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:hint="PASSWORD"
+        android:inputType="text"
+        android:textColorHint="#F2FFFFFF" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="176dp"
+        android:background="#2196F3"
+        android:text="REGISTER" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginBottom="106dp"
+        android:background="#3F51B5"
+        android:text="BACK" />
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="32dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="166dp"
+        android:layout_marginBottom="321dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>
